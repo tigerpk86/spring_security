@@ -8,11 +8,6 @@
     <mvc:annotation-driven/>
     <mvc:default-servlet-handler/>
 
-    <bean class="com.book.mvcs.FirstController"/>
-    <bean class="com.exe.mvcs.MemberController"/>
-
-    <bean class="com.chap11.RegisterController"/>
-
     <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
         <property name="prefix">
             <value>/WEB-INF/view/</value>
@@ -22,6 +17,6 @@
         </property>
     </bean>
 
-
+    <bean class="chap01.HelloController"/>
 
 </beans>

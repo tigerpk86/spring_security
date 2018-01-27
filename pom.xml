@@ -22,7 +22,7 @@
 
 
         <!-- Spring -->
-        <spring-framework.version>4.0.7.RELEASE</spring-framework.version>
+        <spring-framework.version>3.1.0.RELEASE</spring-framework.version>
 
         <!-- Test -->
         <junit.version>4.11</junit.version>
@@ -79,6 +79,18 @@
             <artifactId>log4j</artifactId>
             <version>1.2.17</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-web</artifactId>
+            <version>3.1.3.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-config</artifactId>
+            <version>3.1.3.RELEASE</version>
+        </dependency>
+
     </dependencies>
     <build>
         <plugins>
